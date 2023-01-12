@@ -975,9 +975,9 @@ main {
                     top: 0;
                     justify-content: flex-start;
                     padding: 40px 0;
-                    background-color: $colorDarkBlue;
-                
+                    background-color: $colorDarkBlue; 
                     flex-direction: column;
+                    overflow-y: scroll;
                     li {
                         margin: 20px 0;
                         height: fit-content;
