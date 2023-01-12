@@ -1,0 +1,73 @@
+// colors
+$colorBlack: #000;
+$colorWhite: #fff;
+$colorDarkBlue: #131A58;
+$colorYellow: #FFCE1F;
+$colorGrey: #EAEAEA;
+$colorGreyLighter: #F5F5F5;
+$colorGreyLight:#F4F7FA;
+$colorDarkGray: #596573;
+$colorBlue: #1780ff;
+$colorBlueLight:#CCE3FF;
+
+// font
+$weightlight: 400;
+$weightNormal: 500;
+$weightBold: 700;
+$weightBolder: 800;
+$fontSizeBig: 48px;
+
+// opacity
+$opacityMain: .5;
+$opacityMore: .8;
+
+// circles
+$circles: 6;
+$size: 610px;
+$center-size: 50px;
+
+// flex
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin flex-jus-cent {
+    display: flex;
+    justify-content: center;
+};
+
+@mixin flex-jus-spacebetw {
+    display: flex;
+    justify-content: space-between;
+};
+
+@mixin flex-jus-end-ali-cent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+};
+
+@mixin flex-jus-end {
+    display: flex;
+    justify-content: flex-end;
+};
+@mixin flex-ali-cent {
+    display: flex;
+    align-items: center;
+};
+
+@mixin flex-ali-cent-just-start {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+};
+
+
+
+@mixin flex-betwe-cent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+};
